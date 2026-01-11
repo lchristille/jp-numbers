@@ -1,0 +1,45 @@
+{
+  "name": "@lchristille/jp-numbers",
+  "version": "1.0.1",
+  "description": "Convert between number and Japanese",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lchristille/jp-numbers.git"
+  },
+  "keywords": [
+    "japanese",
+    "kansuji",
+    "kanji",
+    "number",
+    "toString",
+    "converter"
+  ],
+  "author": "lchristille <luca.christille@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lchristille/jp-numbers/issues"
+  },
+  "homepage": "https://github.com/lchristille/jp-numbers#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}
